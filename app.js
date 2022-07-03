@@ -31,6 +31,6 @@ app.set("port", process.env.SERVER_PORT);
 // Start server
 app.listen(process.env.PORT || process.env.SERVER_PORT, "0.0.0.0", () => {
   console.log(
-    `Express server listening on port ${process.env.SERVER_PORT} CONNECTED TO ${process.env.ENV}`
+    `Express server listening on port ${process.env.SERVER_PORT}`
   );
 });
